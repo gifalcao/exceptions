@@ -1,0 +1,14 @@
+public class Ex2java7{
+public static void main(String[] args){
+
+int[] numeros ={4, 8, 16, 32, 64, 128}
+int[] demon = {2, 0, 4, 8, 0}
+
+for(int g=0;g<numeros.length;g++){
+System.out.printl(numeros[g] +"/" + demon[g]+ "="+(numeros[g]/demon[g]) );
+}
+catch(ArithmeticException|ArrayIndexOutOfBoundsException e){
+System.out.printl("Aconteceu um erro");
+}
+}
+}
